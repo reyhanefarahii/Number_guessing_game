@@ -43,7 +43,7 @@ elif gameMode == user:
             try:
                 rand = random.randint(lower_bound, bigger_bound)
             except:
-                print('again! please Chose a number between 1 and 6 in your mind!')
+                print('again! please Chose a number between 1 and 50 in your mind!')
                 lower_bound=1
                 bigger_bound=50
         mind = input('is the number ' + str(rand) + ' ?')
